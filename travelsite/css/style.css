@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    background-image: url(../images/nepal2.jpg);
+    background-position: top-center;
+    background-size: cover;
+}
+nav {
+    padding: 10px;
+    background-color: #666666;
+}
+.small-logo {
+    float: right;
+}
+nav a {
+    margin-right: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #0000CC;
+}
+nav a:visited {
+    color: #FFFFFF;
+}
+.large-logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: block;
+}
+footer {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0px;
+    padding: 0px;
+}
+#videobg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height:auto;
+    z-index: -100;
+}
